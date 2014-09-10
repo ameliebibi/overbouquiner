@@ -1,0 +1,42 @@
+/* GENERAL */
+
+
+
+/* HEADER */
+
+.top-visuel{
+	background-image: url("image/femme_fenetre.png");
+	height: 647px;
+	color: white;
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+nav ul li{
+	display: inline;
+	text-decoration: none;
+	background-color: black;
+	opacity: 0.9;
+	font-size: 18px;
+	display: center;
+	border: 1px solid transparent;
+	color: white;
+}
+
+.Top-nav{
+	display: inline;
+	text-decoration: none;
+	background-color: black;
+}
+
+
+/* CTA newsletter */
+
+.headroom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    transition: all 0.2s ease-in-out 0s;
