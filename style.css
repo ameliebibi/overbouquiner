@@ -1,18 +1,14 @@
 /* GENERAL */
 
-
-
-/* HEADER */
-
-.top-visuel{
-	background-image: url("image/femme_fenetre.png");
-	height: 647px;
-	color: white;
-	background-color: #000;
-	background-repeat: no-repeat;
-	background-position: center center;
+p{
+	font-family: 'Dosis', sans-serif;
 }
 
+h1{
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* HEADER */
 
 nav ul li{
 	display: inline;
@@ -31,6 +27,14 @@ nav ul li{
 	background-color: black;
 }
 
+#mess img {
+  width: 100%;
+}
+
+#mess .col-xs-2 {
+  padding-right: 0;
+  padding-left:0;
+}
 
 /* CTA newsletter */
 

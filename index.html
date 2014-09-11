@@ -1,18 +1,83 @@
 <!DOCTYPE html>
 <html>
+	<!-- HEAD-->
 	<head>
 		<title>Idées de livre, la communauté de nos lecteurs vous donnent des idées de lecture</title>
 		<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+
+		<link rel="stylesheet" href="style.css">
 	</head>
-	
+	<!-- END HEAD-->
+
 	<body>
 		<header>
+
+		<!-- BIG TOP VISUAL-->
+			<div class="row" id="mess">
+				<div class="col-xs-2">
+					<img src="image/Adrien-Bosc_portrait.jpg">
+				</div>
+				
+				<div class="col-xs-2">
+					<img src="image/gregoire-delacourt-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/francoise-bourdin-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/James-Salter-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/Eric-REINHARDT-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/amelie-nothomb-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/benjamin-wood-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">David-foenkinos-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/gregoire-delacourt-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/Leila-Slimani-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/olivier-adam-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/sophie-brocas-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/Taiye-Selasi-portrait.jpg">
+				</div>
+
+			</div>
 			<div class="top-visuel">
 			<h1>Vivre plusieurs vies</h1>
 			</div>
-			
-			
+		<!-- END BIG TOP VISUAL-->	
+		
+		<!-- TOP NAV-->	
 			<nav class="Top-nav">
 				<ul>
 					<a href="#"><li>RECHERCHER</li></a>
@@ -21,7 +86,9 @@
 					<a href="#"><li>Déjà membre</li></a>
 				</ul>
 			</nav>
+		<!-- END TOP NAV-->	
 
+		<!-- NAV SEGONDAIRE-->
 			<nav class="Nav segondaire">
 					<ul>
 						<a href="#"><li>Nos chouchous</li></a>
@@ -33,7 +100,10 @@
 						<a href="#"><li>Pour ado</li></a>
 					</ul>
 			</nav>
+		<!-- END NAV SEGONDAIRE-->
 		</header>
+
+
 		<!-- BEGIN CTA NEWSLETTER BOTTOM-->
 					
 		<div class="CTA-newsletter">
@@ -50,18 +120,11 @@
             <input id="email_validation" class="special_form_field subscribe_text_field" type="text" style="height: 40px; width: 140px; top: 0px; position: relative; background: rgba(255,255,255,.2);" required="" placeholder="nyan@cat.com" name="EMAIL" value=""></input>
             <input id="mc-embedded-subscribe(NULLED_THIS_ID)" class="btn btn_gray_alt" type="submit" style="top: 0px; position: relative" name="subscribe" value="Subscribe" onclick="ga('send', 'event', 'href', 'Subscribe', 'Big, green Subscribe button in Program Roadmap div');"></input>
             <br></br>
-            <!--
 
-             real people should not fill this in and expect go…
 
-            -->
             <div style="position: absolute; left: -5000px;"></div>
         </form>
-        <!--
-
-         <a href="https://www.snapengage.com/statusImage?w…
-
-        -->
+        
     	</span>
 
 		</div>
@@ -72,18 +135,29 @@
 			<h1></h1>
 		</section>
 
-		<section class="Bloc 2">
-			<h3>Recherchez un livre :</h3>
-			<form type="text">
-				  <input id="GET-name" type="text">
-				  <button type="submit" class="fa fa-search"></button>
-			</form>
-			<a href="search-page.com">+ de critères</a>
-			<button class="inspirez-moi">
-			<p>En manque d'inspiration?</p>
-			<h2>LAISSEZ-VOUS GUIDER, ON SE CHARGE DE VOUS TROUVER VOTRE LIVRE</h2>
-			</button>
-		</section>
+		<div class="row">
+
+			<section class="Recherche">
+				<div class="col-xs-8">
+				<h3>Recherchez un livre :</h3>
+				<form type="text">
+					  <input id="GET-name" type="text">
+					  <button type="submit" class="fa fa-search"></button>
+				</form>
+				<a href="search-page.html">+ de critères</a>
+				</div>
+
+				<div class="col-xs-4">
+					<button class="inspirez-moi">
+					<p>En manque d'inspiration?</p>
+					<h2>LAISSEZ-VOUS GUIDER, ON SE CHARGE DE VOUS TROUVER VOTRE LIVRE</h2>
+					</button>
+				</div>
+			</section>
+		</div>
+
+
+		</div>
 
 		<section class="Bloc 2">
 			<h3>NOTRE SÉLECTION</h3>
@@ -129,7 +203,9 @@
 			</article>
 		</section>
 
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></
 
 	</body>
 
