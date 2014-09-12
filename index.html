@@ -17,8 +17,45 @@
 
 	<body>
 		<header>
+				<!-- TOP NAV 1 EN BOOTSTRAP-->
 
-		<!-- BIG TOP VISUAL-->
+		<div class="top-nav">
+		<nav class="navbar navbar-default" role="navigation">
+
+		  <div class="container-fluid">
+		  	<div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <!-- <a class="navbar-brand" href="#">BOOKS</a> -->
+		    </div>
+
+		    <!-- Brand and toggle get grouped for better mobile display -->
+
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><p>RECHERCHER</p></a></li>
+        <li><a href="#"><p>A OFFRIR</p></a></li>
+  
+	   
+	        <li><a href="#"><p>S'INSCRIRE </p></a></li>
+	        <li><a href="#"><p>Déjà membre ?</p></a></li>
+	        
+      	</div><!-- ESPACE PERSO -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div><!--/navbar du haut-->
+
+<!-- END TOP NAV 1 EN BOOTSTRAP-->	
+
+		<!-- BIG TOP VISUAL PORTRAIT--
 			<div class="row" id="mess">
 				<div class="col-xs-2">
 					<img src="image/Adrien-Bosc_portrait.jpg">
@@ -72,23 +109,21 @@
 				</div>
 
 			</div>
-			<div class="top-visuel">
-			<h1>Vivre plusieurs vies</h1>
-			</div>
+			
 		<!-- END BIG TOP VISUAL-->	
-		
-		<!-- TOP NAV-->	
-			<nav class="Top-nav">
-				<ul>
-					<a href="#"><li>RECHERCHER</li></a>
-					<a href="#"><li>A OFFRIR</li></a>
-					<a href="#"><li>VOTRE ESPACE PERSO</li></a>
-					<a href="#"><li>Déjà membre</li></a>
-				</ul>
-			</nav>
-		<!-- END TOP NAV-->	
 
-		<!---NAV BAR TOP BOOTSTRAP-->
+		<!-- TOP VISUEL FILLE FENETRE-->
+		<div class="black-background">
+			<div class="container-fluid" id="visual-top">
+				<img src="image/femme_fenetre_coupee.png">
+				<div class="container-title">
+					<h1>Vivre plusieurs vies</h1>
+				</div>
+			</div><!--top-visuel-->
+		</div><!--black-background-->
+
+
+		<!---NAV BAR SEGONDAIRE BOOTSTRAP-->
 		<nav class="navbar navbar-default" role="navigation">
 
 
@@ -136,47 +171,36 @@
   </div><!-- dots -->
 </nav>
 
+	<!---END NAV BAR SEGONDAIRE BOOTSTRAP-->
 
-
-		<!-- NAV SEGONDAIRE-->
-			<nav class="Nav segondaire">
-					<ul>
-						<a href="#"><li>Nos chouchous</li></a>
-						<a href="#"><li>Roman et Nouvelle</li></a>
-						<a href="#"><li>Théâtre</li></a>
-						<a href="#"><li>Policier et Thriller</li></a>
-						<a href="#"><li>Fantastiques</li></a>
-						<a href="#"><li>Enfants (2 à 6 ans)</li></a>
-						<a href="#"><li>Pour ado</li></a>
-					</ul>
-			</nav>
-		<!-- END NAV SEGONDAIRE-->
+		
 		</header>
 
 
 		<!-- BEGIN CTA NEWSLETTER BOTTOM-->
 					
-		<div class="CTA-newsletter">
-    	Plus d'idées de livre ?
-		
-		<div class="btn red apply nl" href="#apply">
-			Inscrivez-vous
-		</div>	
+		<div class="container" id="CTA-newsletter">
+			<div class="row">
+				<div class="col-xs-7"
+	    			<h4>
+	    			+ d'idées de livres ? Inscrivez-vous à notre newsletter
+	    			</h4>
+	    		</div><!--class idées de livres ?-->
 
-    	<span class="CTA_NL_provoke_hide_on_mobile">
-         Inscrivez-vous à notre newsletter
+	    		
+    			<div class="col-xs-5"
+        			<form id="mc-embedded-subscribe-form" class="validate" style="position: relative; display: inline;" novalidate="" target="_blank" name="mc-embedded-subscribe-form" method="post" action="">
+            
+            		<input id="email_validation" class="special_form_field subscribe_text_field" type="text" style="height: 30px; width: 160px; top: 0px; position: relative; background: rgba(255,255,255,.2);" required="" placeholder="amelie@gmail.com" name="EMAIL" value=""></input>
+            	<input id="mc-embedded-subscribe(NULLED_THIS_ID)" class="btn btn_gray_alt" type="submit" style="top: 0px; position: inline" name="subscribe" value="OK" onclick="ga('send', 'event', 'href', 'Subscribe', 'Big, green Subscribe button in Program Roadmap div');"></input>
+           		 <br></br>
 
-        <form id="mc-embedded-subscribe-form" class="validate" style="position: relative; display: inline;" novalidate="" target="_blank" name="mc-embedded-subscribe-form" method="post" action="http://thedesignation.us5.list-manage2.com/subscribe/post?u=f5c7579668f546f2132350384&id=a246930c5d">
-            <input id="email_validation" class="special_form_field subscribe_text_field" type="text" style="height: 40px; width: 140px; top: 0px; position: relative; background: rgba(255,255,255,.2);" required="" placeholder="nyan@cat.com" name="EMAIL" value=""></input>
-            <input id="mc-embedded-subscribe(NULLED_THIS_ID)" class="btn btn_gray_alt" type="submit" style="top: 0px; position: relative" name="subscribe" value="Subscribe" onclick="ga('send', 'event', 'href', 'Subscribe', 'Big, green Subscribe button in Program Roadmap div');"></input>
-            <br></br>
 
-
-            <div style="position: absolute; left: -5000px;"></div>
-        </form>
+            	<div style="position: absolute; left: -5000px;"></div>
+        	</form>
         
-    	</span>
-
+    	</div>
+		</div>
 		</div>
 		<!-- END CTA NEWSLETTER BOTTOM-->
 
@@ -257,6 +281,7 @@
 	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+	<script type="text/javascript" src="scripts/global.js"></script>
 	</body>
 
 

@@ -10,7 +10,66 @@ h1{
 
 /* HEADER */
 
-nav ul li{
+/* NAV BOOTSTRAP TOP */
+.top-nav .container-fluid{
+	letter-spacing: 2px;
+	width:90%;
+	margin: 0 auto;
+}
+
+.top-nav .collapse .navbar-collapse{
+	display: center;
+	width: 80%;
+}
+
+.top-nav .navbar-default .navbar-collapse{
+	background-color: #181A1E;
+}
+
+.top-nav .navbar-default, .navbar-collapse {
+	background-color:#181A1E;
+}
+
+.top-nav .navbar-nav li p{
+	margin:auto;
+	color:white;
+}
+
+.top-nav .navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.top-nav .active a p{
+	color: ##181A1E;
+}
+
+.top-nav .navbar-nav .active a:focus{
+	background-color: white;
+}
+
+.top-nav .container-fluid > .navbar-collapse{
+margin-left: 400px;
+}
+
+.top-nav .navbar-nav li p{
+	border-right: 1px solid white;
+	padding-right:18px;
+}
+
+.top-nav .navbar{
+	border: none;
+	margin: 0;
+}
+
+
+/* VISUEL DU TOP */
+
+/*nav ul li{
 	display: inline;
 	text-decoration: none;
 	opacity: 0.9;
@@ -34,10 +93,36 @@ nav ul li{
 #mess .col-xs-2 {
   padding-right: 0;
   padding-left:0;
+}*/
+
+#visual-top{
+	position: relative;
 }
 
+#visual-top img{
+	max-width: 100%
+}
 
-/* NAV BOOTSTRAP GOOD LUCK */
+#visual-top h1{
+	text-align: center;
+}
+
+.container-title{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+}
+
+.black-background{
+	background-color: black;
+}
+
+h1{
+	text-align: center;
+}
+
+/* NAV BOOTSTRAP SEGONDAIRE GOOD LUCK */
 .container-fluid{
 	letter-spacing: 2px;
 	width:90%;
@@ -67,6 +152,7 @@ nav ul li{
   vertical-align: top;
 }
 
+
 .dots {
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
@@ -89,6 +175,19 @@ nav ul li{
 
 
 /* CTA newsletter */
+
+#CTA-newsletter{
+	background-color: #2C4386;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	color:white;
+}
+
+#CTA-newsletter .input{
+	color:black;
+	background-color: gray;
+}
 
 .headroom {
     position: fixed;
