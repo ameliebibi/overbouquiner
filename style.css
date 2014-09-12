@@ -13,12 +13,12 @@ h1{
 nav ul li{
 	display: inline;
 	text-decoration: none;
-	background-color: black;
 	opacity: 0.9;
 	font-size: 18px;
 	display: center;
 	border: 1px solid transparent;
 	color: white;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .Top-nav{
@@ -36,6 +36,58 @@ nav ul li{
   padding-left:0;
 }
 
+
+/* NAV BOOTSTRAP GOOD LUCK */
+.container-fluid{
+	letter-spacing: 2px;
+	width:90%;
+	margin: 0 auto;
+}
+
+.collapse .navbar-collapse{
+	display: center;
+	width: 80%;
+}
+
+.navbar-default, .navbar-collapse {
+	background-color:#24A1A8;
+}
+
+.navbar-nav li p{
+	margin:auto;
+	color:white;
+}
+
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.dots {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+}
+
+.active a p{
+	color: #24A1A8;
+}
+
+.navbar-nav .active a:focus{
+	background-color: white;
+}
+
+.dropdown-toggle{
+	background-color: #427C7F;
+}
+
+
 /* CTA newsletter */
 
 .headroom {
@@ -44,3 +96,4 @@ nav ul li{
     left: 0px;
     right: 0px;
     transition: all 0.2s ease-in-out 0s;
+}
