@@ -181,9 +181,11 @@ h1{
 }
 
 
-.Bloc 2 img{
+.Bloc-selection img{
 	max-width: 160px;
-} 
+	outline: offset 10px;
+}
+
 
 /* CTA newsletter */
 
