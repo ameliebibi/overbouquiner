@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html>
+      <?php
+      wp_nav_menu( array(
+        'menu' => 'secondary-nav',
+        'theme_location' => 'secondary-nav',
+        'depth' => 2,
+        'container' => 'div',
+        'container_class' => 'collapse navbar-collapse row',
+        'container_id' => 'bs-example-navbar-collapse-1',
+        'menu_class' => 'nav navbar-nav',
+        'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+        'walker' => new wp_bootstrap_navwalker())
+      );
+      ?>
+   
+
+
 
 	<!---NAV BAR SEGONDAIRE BOOTSTRAP-->
-		<nav class="navbar navbar-default" role="navigation"><?php echo $navbar ?>
+		<!--<nav class="navbar navbar-default" role="navigation"><?php echo $navbar ?>
 
 
 
@@ -17,13 +33,13 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <!-- <a class="navbar-brand" href="#">BOOKS</a> -->
-		    </div>
+		    <!--</div>--!>
 
 		    <!-- Brand and toggle get grouped for better mobile display -->
 
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#"><p>Coup de coeurs</p></a></li>
         <li><a href="#"><p>Roman</p></a></li>

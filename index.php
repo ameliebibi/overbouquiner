@@ -106,23 +106,23 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 
 		<!-- TOP VISUEL FILLE FENETRE-->
 		<div class="black-background">
-			<div class="container-fluid" id="visual-top">
-				<img src="image/femme_fenetre_coupee.png">
+			<div class="container-fluid  text-center" id="visual-top">
+				<img src="<?php bloginfo('template_directory'); ?>/image/femme_fenetre.png">
 				<div class="container-title">
+				<div class="mask"></div>
 					<h1>LISEZ ENFIN DE BONS LIVRES</h1>
 					<p>
-					  <button type="button" class="btn btn-primary btn-lg">Trouvez l'inspiration ici</button>
+					  <h2><button type="button" class="btn btn-primary btn-lg">TROUVEZ L'INSPIRATION ICI</button></h2>
 					</p>
 				</div>
 			</div><!--top-visuel-->
 		</div><!--black-background-->
+</div>
 
-
-		
-	<?php
-	include "navbar.php";
-	?>
 	
+	<?php
+include "navbar.php";
+?>
 		</header>
 
 
@@ -152,14 +152,22 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 		</section>
 	<!--end SEARCH-->
 
-	
+		<div class="row">
+		<div class="col-md-4" id="aside">	
+		<ul id="sidebar">
+		   <?php dynamic_sidebar( 'Main Sidebar' ); ?>
+		</ul>
+		</div><!--fermeture col-md-4-->
+		</div><!--fermeture row-->
+
+		<div class="col-md-8" id="bloc gauche">
 		<section class="Bloc-selection">
 			<h3>NOTRE SÉLECTION</h3>
 			<div class="row" id="article-our-selection">
 			
 			<div class="col-md-4">
 			<article>
-				<img src="image/Murakami.png">
+				<img src="<?php bloginfo('template_directory'); ?>/image/Murakami.png">
 				<h4>L'incolore, Tsukuru Tazaki et ses années de pèlerinage</h4>
 				<h5>Haruli Murakami</h5>
 				<p>Un livre plein de soleil à savourer dans le métro pour se croire encore en vacances</p>
@@ -171,7 +179,7 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 
 			<div class="col-md-4">
 			<article>
-				<img src="image/Ken-Follet.png">
+				<img src="<?php bloginfo('template_directory'); ?>/image/Ken-Follet.png">
 				<h4>Aux portes de l'éternité</h4>
 				<h5>Ken Follet</h5>
 				<p>L'histoire d'une femme qui ne sait plus comment aider son fils. Un très bon roman psychologique.</p>
@@ -182,7 +190,7 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 
 			<div class="col-md-4">
 			<article>
-				<img src="image/La-promesse-de-locean.png">
+				<img src="<?php bloginfo('template_directory'); ?>/image/La-promesse-de-locean.png">
 				<h4>La promesse de l'océan</h4>
 				<h5>Nom de l'auteur</h5>
 				<p>Un livre tout en couleur qui nous fait croire dans le genre humain.</p>
@@ -201,7 +209,7 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 
 			<div class="col-md-4">
 			<article>
-				<img src="image/La colere des aubergines.png">
+				<img src="<?php bloginfo('template_directory'); ?>/image/La colere des aubergines.png">
 				<h4>La colère des aubergines</h4>
 				<h5>Nom de l'auteur</h5>
 				<p>L'histoire d'une femme qui ne sait plus comment aider son fils. Un très bon roman psychologique.</p>
@@ -212,7 +220,7 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 
 			<div class="col-md-4">
 			<article>
-				<img src="image/Le Dieu des Petits Riens.png">
+				<img src="<?php bloginfo('template_directory'); ?>/image/Le Dieu des Petits Riens.png">
 				<h4>Le Dieu des Petits Riens</h4>
 				<h5>Nom de l'auteur</h5>
 				<p>L'histoire d'une femme qui ne sait plus comment aider son fils. Un très bon roman psychologique.</p>
@@ -223,7 +231,7 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 
 			<div class="col-md-4">
 			<article>
-				<img src="image/De la part de la princesse morte.png">
+				<img src="<?php bloginfo('template_directory'); ?>/image/De la part de la princesse morte.png">
 				<h4>De la part de la princesse morte</h4>
 				<h5>Nom de l'auteur</h5>
 				<p>L'histoire d'une femme qui ne sait plus comment aider son fils. Un très bon roman psychologique.</p>
@@ -234,23 +242,12 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 
 
 			</div><!--row-->
+			</div><!-- close row aside +bloc-->
 		</section>
 	
 	</div><!-- wrapper-->
 
-	<?php
-	include "footer.php";
-	?>
+	<?php get_footer();?>
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-	<script type="text/javascript" src="scripts/global.js"></script>
-	</body>
-
-
-
-
-</html>

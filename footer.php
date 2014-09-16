@@ -1,6 +1,4 @@
 <!-- BEGIN CTA NEWSLETTER BOTTOM-->
-		<?php echo $footer ?>
-
 		<div class="container" id="CTA-newsletter">
 			<div class="row">
 				<div class="col-xs-7"
@@ -21,7 +19,27 @@
             	<div style="position: absolute; left: -5000px;"></div>
         	</form>
         
-    	</div>
+    			</div>
+			</div>
+
 		</div>
-		</div>
+
+		<?php
+		   /* Always have wp_footer() just before the closing </body>
+		    * tag of your theme, or you will break many plugins, which
+		    * generally use this hook to reference JavaScript files.
+		    */
+		    wp_footer();
+		?>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/global.js"></script>
+	
+	</body>
+
+
+
+
+</html>
 		<!-- END CTA NEWSLETTER BOTTOM-->
