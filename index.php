@@ -109,14 +109,19 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 			<div class="container-fluid" id="visual-top">
 				<img src="image/femme_fenetre_coupee.png">
 				<div class="container-title">
-					<h1>Vivre plusieurs vies</h1>
+					<h1>LISEZ ENFIN DE BONS LIVRES</h1>
+					<p>
+					  <button type="button" class="btn btn-primary btn-lg">Trouvez l'inspiration ici</button>
+					</p>
 				</div>
 			</div><!--top-visuel-->
 		</div><!--black-background-->
 
 
 		
-
+	<?php
+	include "navbar.php";
+	?>
 	
 		</header>
 
@@ -233,7 +238,9 @@ $meta_description="Idées de livre, la communauté de nos lecteurs vous donnent 
 	
 	</div><!-- wrapper-->
 
-
+	<?php
+	include "footer.php";
+	?>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

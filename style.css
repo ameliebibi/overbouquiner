@@ -103,8 +103,12 @@ margin-left: 400px;
 	max-width: 100%
 }
 
-#visual-top h1{
+#visual-top h1 p{
 	text-align: center;
+}
+
+.btn-lg{
+	background-color: #E04336;
 }
 
 .container-title{
@@ -120,6 +124,21 @@ margin-left: 400px;
 
 h1{
 	text-align: center;
+}
+
+.btn-lg:hover {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4);
+    margin-bottom: -4px;
+    margin-top: 4px;
+    background-color: #E04336;
+    border-width: 1px 1px 2px;
+    border-style: solid;
+    border-color: #BE2A25;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
 }
 
 /* NAV BOOTSTRAP SEGONDAIRE GOOD LUCK */

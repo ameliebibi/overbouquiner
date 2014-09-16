@@ -1,5 +1,6 @@
 <!-- BEGIN CTA NEWSLETTER BOTTOM-->
-					
+		<?php echo $footer ?>
+
 		<div class="container" id="CTA-newsletter">
 			<div class="row">
 				<div class="col-xs-7"
