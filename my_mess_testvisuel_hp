@@ -1,0 +1,129 @@
+<!-- END TOP NAV 1 EN BOOTSTRAP-->	
+
+		<!-- BIG TOP VISUAL PORTRAIT--
+			<div class="row" id="mess">
+				<div class="col-xs-2">
+					<img src="image/Adrien-Bosc_portrait.jpg">
+				</div>
+				
+				<div class="col-xs-2">
+					<img src="image/gregoire-delacourt-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/francoise-bourdin-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/James-Salter-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/Eric-REINHARDT-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/amelie-nothomb-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/benjamin-wood-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">David-foenkinos-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/gregoire-delacourt-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/Leila-Slimani-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/olivier-adam-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/sophie-brocas-portrait.jpg">
+				</div>
+
+				<div class="col-xs-2">
+					<img src="image/Taiye-Selasi-portrait.jpg">
+				</div>
+
+			</div>
+			
+		<!-- END BIG TOP VISUAL-->	
+
+
+<!-- ex contenu d'article--> 
+<!--<article>
+						<img src="<?php bloginfo('template_directory'); ?>/image/La colere des aubergines.png">
+						<h4>La colère des aubergines</h4>
+						<h5>Nom de l'auteur</h5>
+						<p>L'histoire d'une femme qui ne sait plus comment aider son fils. Un très bon roman psychologique.</p>
+						<i class="fa fa-smile-o fa-2x"></i>
+						<i class="fa fa-smile-o fa-2x"></i>		
+					</article>
+				</div><!--col-md-4-->
+
+				<!--<div class="col-md-4">
+					<article>
+						<img src="<?php bloginfo('template_directory'); ?>/image/Le Dieu des Petits Riens.png">
+						<h4>Le Dieu des Petits Riens</h4>
+						<h5>Nom de l'auteur</h5>
+						<p>L'histoire d'une femme qui ne sait plus comment aider son fils. Un très bon roman psychologique.</p>
+						<i class="fa fa-smile-o fa-2x"></i>
+						<i class="fa fa-smile-o fa-2x"></i>		
+					</article>
+				</div><!--col-md-4-->
+
+				<!--<div class="col-md-4">
+					<article>
+						<img src="<?php bloginfo('template_directory'); ?>/image/De la part de la princesse morte.png">
+						<h4>De la part de la princesse morte</h4>
+						<h5>Nom de l'auteur</h5>
+						<p>L'histoire d'une femme qui ne sait plus comment aider son fils. Un très bon roman psychologique.</p>
+						<i class="fa fa-smile-o fa-2x"></i>
+						<i class="fa fa-smile-o fa-2x"></i>		
+					</article>
+				</div><!--col-md-4-->
+
+
+			<!--</div><!--row-->
+
+											<!--<article>
+									<img src="<?php bloginfo('template_directory'); ?>/image/Murakami.png">
+									<h4>L'incolore, Tsukuru Tazaki et ses années de pèlerinage</h4>
+									<h5>Haruki Murakami</h5>
+									<p>Un livre plein de soleil à savourer dans le métro pour se croire encore en vacances</p>
+									<i class="fa fa-smile-o fa-2x"></i>
+									<i class="fa fa-smile-o fa-2x"></i>
+									<i class="fa fa-smile-o fa-2x"></i>
+								</article>
+							</div><!--div article col-md-4-->
+
+					<!--<div class="col-md-4">
+						<article>
+							<img src="<?php bloginfo('template_directory'); ?>/image/Ken-Follet.png">
+							<h4>Aux portes de l'éternité</h4>
+							<h5>Ken Follet</h5>
+							<p>L'histoire d'une femme qui ne sait plus comment aider son fils. Un très bon roman psychologique.</p>
+							<i class="fa fa-smile-o fa-2x"></i>
+							<i class="fa fa-smile-o fa-2x"></i>
+						</article>
+					</div><!--div article col-md-4-->
+
+					<!--<div class="col-md-4">
+						<article>
+							<img src="<?php bloginfo('template_directory'); ?>/image/La-promesse-de-locean.png">
+							<h4>La promesse de l'océan</h4>
+							<h5>Nom de l'auteur</h5>
+							<p>Un livre tout en couleur qui nous fait croire dans le genre humain.</p>
+							<i class="fa fa-smile-o fa-2x"></i>
+							<i class="fa fa-smile-o fa-2x"></i>
+							<i class="fa fa-smile-o fa-2x"></i>
+						</article>
+					</div><!--div article col-md-4-->

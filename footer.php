@@ -1,7 +1,8 @@
 <!-- BEGIN CTA NEWSLETTER BOTTOM-->
+<footer>	
 		<div class="container" id="CTA-newsletter">
 			<div class="row">
-				<div class="col-xs-7"
+				<div class="col-xs-7">
 	    			<h4>
 	    			+ d'idées de livres ? Inscrivez-vous à notre newsletter
 	    			</h4>
@@ -23,23 +24,21 @@
 			</div>
 
 		</div>
+</footer>
 
-		<?php
-		   /* Always have wp_footer() just before the closing </body>
-		    * tag of your theme, or you will break many plugins, which
-		    * generally use this hook to reference JavaScript files.
-		    */
-		    wp_footer();
-		?>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="scripts/global.js"></script>
+
+<?php
+	/* Always have wp_footer() just before the closing </body>
+	* tag of your theme, or you will break many plugins, which
+	* generally use this hook to reference JavaScript files.
+	*/
+	wp_footer();
+?>
 	
-	</body>
-
-
-
-
+</body>
 </html>
 		<!-- END CTA NEWSLETTER BOTTOM-->
