@@ -139,6 +139,14 @@ margin-left: 400px;
 	background-color: #E04336;
 }
 
+#searchsubmit{
+	height: 30%;
+	font-family:'Ubuntu', sans-serif;
+	font-size: 12px;
+	letter-spacing: 3px;
+}
+
+
 .container-title{
 	position:absolute;
 	top:0;
@@ -292,7 +300,7 @@ h1 {
 
 #CTA-newsletter{
 	background-color: #2C4386;
-	position:fixed;
+	position:bottom;
 	bottom:0;
 	width: 100%;
 	color:white;
