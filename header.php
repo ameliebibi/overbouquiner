@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>" type="text/css" />
 
-        
+        <?php wp_head(); ?>
 	</head>
 
 

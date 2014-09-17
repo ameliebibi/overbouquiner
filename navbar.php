@@ -1,23 +1,35 @@
-<!DOCTYPE html>
-<html>
-      <?php
-      wp_nav_menu( array(
-        'menu' => 'secondary-nav',
-        'theme_location' => 'secondary-nav',
-        'depth' => 2,
-        'container' => 'div',
-        'container_class' => 'collapse navbar-collapse row',
-        'container_id' => 'bs-example-navbar-collapse-1',
-        'menu_class' => 'nav navbar-nav',
-        'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
-        'walker' => new wp_bootstrap_navwalker())
-      );
-      ?>
-   
+<nav class="navbar navbar-default" role="navigation">
+  <div class="dots">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="#">BOOKS</a> -->
+      </div>
+
+        <?php
+        wp_nav_menu( array(
+          'menu' => 'secondary-nav',
+          'theme_location' => 'secondary-nav',
+          'depth' => 2,
+          'container' => 'div',
+          'container_class' => 'collapse navbar-collapse row',
+          'container_id' => 'bs-example-navbar-collapse-2',
+          'menu_class' => 'nav navbar-nav',
+          'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+          'walker' => new wp_bootstrap_navwalker())
+        );
+        ?>
+     </div> <!-- container-fluid -->
+  </div> <!-- dots -->
+</nav>
 
 
-
-	<!---NAV BAR SEGONDAIRE BOOTSTRAP-->
+	<!---NAV BAR SEGONDAIRE BOOTSTRAP
 		<!--<nav class="navbar navbar-default" role="navigation"><?php echo $navbar ?>
 
 
