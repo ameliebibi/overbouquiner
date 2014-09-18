@@ -37,6 +37,19 @@
 		</div><!--top nav-->
 	</div><!--container fluide-->
 
+			<div class="black-background"><!-- TOP VISUEL FILLE FENETRE-->
+				<div class="container-fluid text-center" id="visual-top">
+					<img src="<?php bloginfo('template_directory'); ?>/image/femme_fenetre.png">
+					<div class="mask"></div>
+						<div class="container-title">
+							<h1>LISEZ ENFIN DE BONS LIVRES</h1>
+							<?php get_search_form(); ?>
+							<p>
+								<h2><button type="button" class="btn btn-primary btn-lg">TROUVEZ L'INSPIRATION ICI</button></h2>
+							</p>
+						</div>
+				</div><!--container fluid -visual top-->
+			</div><!--black-background-->
 
 		<?php
 		include "navbar.php";
@@ -75,7 +88,26 @@
 					</section>
 				</div><!-- class row -->
 
-
+				<div class="row">
+					<section class="Bloc 3">
+						<h3>Vous aimez voyager, offrez-vous un voyage en Inde....</h3>
+						<?php query_posts("cat=6&showposts=3"); ?>
+							<?php if (have_posts()) : ?>
+								<?php $counter=3; ?>
+								<?php while (have_posts()) : the_post(); ?>
+									<div class="col-md-4">
+										<article class="home-article">
+											<a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail("full", array("class" => "img-responsive")); ?></a>
+											<h3><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h3>
+											<p>
+												<?php the_excerpt (); ?>
+											</p>
+										</article>
+									</div>
+								<?php endwhile; ?>
+							<?php endif; ?>
+					</section>
+				</div><!-- end row-->
 			</div><!-- div col bloc gauche-->
 			
 			<div class="col-md-3" id="aside"><!--row aside-->	
