@@ -30,6 +30,7 @@
 			        <li><a href="#"><p>A OFFRIR</p></a></li>
 			 		<li><a href="#"><p>S'INSCRIRE </p></a></li>
 				    <li><a href="#"><p>Déjà membre ?</p></a></li>
+				    <li><a href="<?php bloginfo('template_directory'); ?>/page-contact.php"><p>Contact</p></a></li>
 				   </ul>
 				</div> 
 
